@@ -22,7 +22,7 @@ const persons = [
       },
       {
         id: "5",
-        name: "Siriphan Nanthasiri",
+        name: "Siripun Nuntasiri",
       },
       {
         id: "6",
