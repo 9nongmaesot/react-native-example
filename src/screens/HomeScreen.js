@@ -37,7 +37,7 @@ const persons = [
 export default HomeScreen = ({ navigation }) => {
 
   const myItemSeparator = () => {
-    return <View style={{ height: 1, backgroundColor: "grey",marginHorizontal:10}} />;
+    return <View style={{ height: 1, backgroundColor: "red",marginHorizontal:10}} />;
   };
   
   const myListEmpty = () => {
@@ -66,6 +66,7 @@ export default HomeScreen = ({ navigation }) => {
     }
   }
 
+
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
@@ -76,7 +77,7 @@ export default HomeScreen = ({ navigation }) => {
         ListEmptyComponent={myListEmpty}
         ListHeaderComponent={() => (
           <Text style={{ fontSize: 30, textAlign: "center",marginTop:20,fontWeight:'bold',textDecorationLine: 'underline' }}>
-            List of Spartan
+            List of Spartan สปาตัน
           </Text>
         )}
         ListFooterComponent={() => (
