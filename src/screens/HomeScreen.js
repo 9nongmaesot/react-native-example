@@ -59,7 +59,7 @@ export default HomeScreen = ({ navigation }) => {
   };
 
   const onClickItem = (item) => {
-    if (item.id == '1') {
+    if (item.id == '5') {
       navigation.navigate('Sanon');
     } else {
       alert('ID: ' + item.id + ' Name: ' + item.name);

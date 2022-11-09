@@ -7,9 +7,9 @@ const SanonScreen = () => {
     <View style={styles.container}>
       <Image 
         style={styles.photo}
-        source={require('../assets/images/rambo.png')}
+        source={require('../assets/images/lovely.jpg')}
       />
-      <Text style={styles.name}>Sanon Kaewobchoey</Text>
+      <Text style={styles.name}>Lovely narak</Text>
     </View>
   );
 }
